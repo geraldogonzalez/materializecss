@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Materialize</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="black nav-wrapper menu">
+                <div class="container">
+                    <a href="http://127.0.0.1:5500/index.html" class="brand-logo"><img class="circle" src="img/foto.jpg"
+                            alt=""></a>
+                    <a href="#" data-target="menu-adaptable" class="right sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#sobremi">Sobre mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <!-- Menú desplegable -->
+                        <li><a class="dropdown-trigger" data-target="dropdown" href="#">Idioma<i
+                                    class="material-icons right">arrow_drop_down</i></a></li>
+                        <!-- Submenú -->
+                        <ul id="dropdown" class="desplegable dropdown-content black white-text">
+                            <li><a href="#!">Español</a></li>
+                            <li><a href="#">Inglés</a></li>
+                        </ul>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="menu-adaptable">
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <!-- Menu desplegable -->
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Idioma<i
+                    class="material-icons right">arrow_drop_down</i></a></li>
+        <ul id="dropdown1" class="dropdown-content">
+            <li class="active"><a href="#">Español</a></li>
+            <li><a href="#">Inglés</a></li>
+        </ul>
+    </ul>
+
+    <header class="header">
+        <div class="container section center white-text contenedor-header">
+            <div class="nombre">
+                <span>Geraldo González</span>
+            </div>
+            <h2 class="profesion">Desarrollador Web Front-end</h2>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="card white sobre-mi" id="sobremi">
+            <div class="container contenedor-sobre-mi">
+                <div class="row">
+                    <div class="col s12">
+                        <h3 class="titulo center">Sobre mí</h3>
+                        <div class="texto">
+                            <p class="direccion"><span class="dir">C: portafolio/geraldo-gonzalez</span></p>
+                            <p class="descripcion">
+                                $
+                                <span id="tagline">
+                                    Bienvenido: <br><br>
+
+                                    Soy desarrollador front-end, me gusta mucho el... <ins>1.5</ins> Un momento, ¿sabes
+                                    qué es
+                                    eso, no?
+                                    'Desarrollador front-end'. A ver, te explico: <br><br>
+
+                                    Un desarollador front-end es el encargado de todo lo que puedes ver en un sitio web.
+                                    Desde el diseño, los estilos e incluso animaciones del mismo. Básicamente hace que
+                                    este
+                                    luzca bien y
+                                    sea agradable a la vista de los usuarios (o en teoría debería ser así).<br><br>
+
+                                    ¿Suena bien, no?
+                                    <br><br>
+
+                                    Me gusta el fútbol (de hecho, te cuento un secreto: los colores de mi portafolio son
+                                    los
+                                    colores de mi equipo favorito, el A.C. Milan). Aparte de eso, también me gusta la
+                                    actuación
+                                    y la música.
+                                    <del></del></span><del id="pow-trigger"></del>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos">
+            <h3 class="titulo white-text center" id="proyectos">Algunos proyectos realizados</h3>
+            <div class="container contenedor-proyectos">
+                <div class="row">
+                    <div class="col s12 m5">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/proyectos/airnbnb.jpg">
+                            </div>
+
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">MiViaje.com:</span>
+                                <p><a href="https://geraldogonzalez.github.io/practicas/airbnb-clon/index.html" target="_blank">Ir al proyecto</a></p>
+                                <h5 class="section center">Tecnologías utilizadas:</h5>
+                                <p class="center">
+                                    <span class="orange-text text-darken-3">HTML5</span> - <span class="light-blue-text text-darken-4">CSS3</span> -
+                                    <span class="amber-text text-accent-4">JavaScript</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m5 offset-m2">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/proyectos/cafe.jpg">
+                            </div>
+
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Cafe Milanello</span>
+                                <p><a href="https://geraldogonzalez.github.io/practicas/cafe/index.html" target="_blank">Ir al proyecto</a></p>
+                                <h5 class="section center">Tecnologías utilizadas:</h5>
+                                <p class="center"><span class="orange-text text-darken-3">HTML5</span> - <span
+                                        class="light-blue-text text-darken-4">CSS3</span> - <span
+                                        class="amber-text text-accent-4">JavaScript</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m5">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/proyectos/blog.jpg">
+                            </div>
+
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Blog:</span>
+                                <p><a href="https://geraldogonzalez.github.io/practicas/blog/index.html" target="_blank">Ir al proyecto</a></p>
+                                <h5 class="section center">Tecnologías utilizadas:</h5>
+                                <p class="center"><span class="orange-text text-darken-3">HTML5</span> - <span
+                                        class="light-blue-text text-darken-4">CSS3</span> - <span
+                                        class="amber-text text-accent-4">JavaScript</span>
+                                    - <span class="pink-text text-accent-2">Sass</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m5 offset-m2">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/proyectos/galería.jpg">
+                            </div>
+
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Virtual Shop:</span>
+                                <p><a href="https://geraldogonzalez.github.io/practicas/galeria/index.html" target="_blank">Ir al proyecto</a></p>
+                                <h5 class="section center">Tecnologías utilizadas:</h5>
+                                <p class="center"><span class="orange-text text-darken-3">HTML5</span> - <span
+                                        class="light-blue-text text-darken-4">CSS3</span> - <span
+                                        class="amber-text text-accent-4">JavaScript</span> - <span
+                                        class="deep-purple-text text-darken-2">Bootstrap</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="card section white conocimientos" id="habilidades">
+            <h3 class="center titulo">Habilidades tecnológicas</h3>
+            <div class="container contenedor-conocimientos">
+
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/html.jpg" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light orange darken-4"><i
+                                        class="activator material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>HTML 5</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title orange-text text-darken-3">HTML 5<i
+                                        class="material-icons right">close</i></span>
+                                <p>Sus siglas vienen del inglés 'HyperText Markup Language'. Traducido al español
+                                    quiere decir 'Lenguaje de Marcado e HiperTexto'. Este lenguaje de marcado nos
+                                    permite
+                                    crear la estructura
+                                    (o cuerpo) básica de un sitio web mediante tags (etiquetas). El número cinco (5)
+                                    hace
+                                    referencia a la versión
+                                    en la que se encuentra actualmente. Todos los titulos, párrafos, formularios,
+                                    videos,
+                                    entre muchísimas cosas más,
+                                    las tenemos gracias a este maravilloso lenguaje.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/css.jpg" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue darken-4"><i
+                                        class="activator material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>CSS 3</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title light-blue-text text-darken-4 ">CSS 3<i
+                                        class="material-icons right">close</i></span>
+                                <p>
+                                    CSS es un lenguaje de estilo. Sus siglas también tienen un significado 'Cascading
+                                        StyleSheet',
+                                        su traducción es 'Hojas de estilo de cascada'. Seguro ya sabrás qué quiere decir el
+                                        número tres (3),
+                                        ¿verdad? ¡Exacto! Su versión actual.
+        
+                                        Este lenguaje de estilos nos permite... pues, darle estilos al cuerpo de nuestro sitio
+                                        web.
+                                        Es el maquillaje de HTML. Todo el diseño de un sitio va directamente relacionado con
+                                        este lenguaje.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/js.jpg" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light amber accent-4">
+                                    <i class="activator material-icons">add</i>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>JavaScript</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title amber-text text-accent-4">JavaScript
+                                    <i class="material-icons right">close</i>
+                                </span>
+                                <p>¡Bendito JavaScript! Es un lenguaje de programación que nos permite añadir, eliminar,
+                                        aplicar animaciones o
+                                        efectos a los componentes de nuestro sitio. Es la herramienta perfecta para realizar
+                                        sitios web dinámicos
+                                        y muy atractivos de la mano de CSS y HTML. Con el paso del tiempo ha evolucionado de
+                                        manera exponencial y
+                                        ahora mismo es absolutamente necesario conocerlo si quieres ser desarrollador web.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/bootstrap.jpg" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light deep-purple darken-3"><i
+                                        class="activator material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>Bootstrap</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title deep-purple-text text-darken-2">Bootstrap<i
+                                        class="material-icons right">close</i></span>
+                                <p>Es una de las estructuras de trabajo más usados en el mundo. Este framework
+                                        hace mucho más sencillo el diseño y posicionamiento de los elementos con CSS.
+                                        Te ahorras mucho tiempo gracias a que por defecto él trae las herramientas o código
+                                        interno para que tú no tengas que escribir nada más que clases específicas que tiene
+                                        predefinidas.
+                                        Con una de estas clases de bootstrap te podrías ahorrar 5 o más lineas de código en
+                                        CSS.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/sass.png" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light pink accent-2"><i
+                                        class="activator material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>Sass</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title pink-text text-accent-2">Sass<i
+                                        class="material-icons right">close</i></span>
+                                <p>Al igual que CSS, es un lenguaje de estilos que con el tiempo se ha ido extendiendo.
+                                        Sin embargo
+                                        no es la "competencia de CSS" sino todo lo contrario. El lenguaje de estilos Sass debe
+                                        traducirse luego a CSS.
+                                        Puedes preguntar: "¿De qué me sirve entonces?". Sass nos permite escribir código CSS
+                                        mucho más fácil, rápida y
+                                        además facilita herramientas que CSS por si solo no puede darte a pesar de usar los
+                                        mismos
+                                        atributos. Es muy, MUY, M-U-Y usado.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="img/habilidades/wordpress.png" alt="">
+                                <a class="btn-floating btn-large halfway-fab waves-effect waves-light blue-grey darken-3"><i
+                                        class="activator material-icons">add</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="center card-title grey-text text-darken-4"><strong>WordPress</strong></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="center card-title blue-grey-text text-darken-3">WordPress<i
+                                        class="material-icons right">close</i></span>
+                                <p>Es un sistema de gestión de contenido. En palabras menos técnicas: es una herramienta
+                                        que facilita la administración de muchos aspectos de tu sitio web sin
+                                        necesidad tener conocimientos sobre programación. <br> Sí, como lo lees, cualquier
+                                        persona puede usar
+                                        o modificar el software de WordPress, además puede hacerlo de forma gratuita. Más del
+                                        32% de
+                                        todos los sitios web en internet están hechos con WordPress.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="certificados">
+            <h3 class="white-text center" id="certificados">Certificados obtenidos</h3>
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado HTML - SoloLearn" src="img/certificados/html.jpg">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado CSS - SoloLearn"
+                            src="img/certificados/css.jpg">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado JavaScript - SoloLearn"
+                            src="img/certificados/javscript.jpg">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado Programación básica - Platzi"
+                            src="img/certificados/programacion.png">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado desarrollo web 1 - Google e IEI"
+                            src="img/certificados/desarrollo1.jpg">
+                    </div>
+
+                    <div class="col s12 m4">
+                        <img class="section responsive-img materialboxed" data-caption="Certificado desarrollo web 2 - Google e IEI"
+                            src="img/certificados/desarrollo2.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="card footer" id="contacto">
+            <div class="container">
+                <div class="redes-sociales">
+                    <a href="https://www.linkedin.com/in/geraldo-gonzález-326898178" target="_blank" class="social linkedin"
+                        title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/geraldogonzalez_/" target="_blank" class="social instagram"
+                        title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/geraldgonzalez_" target="_blank" class="social twitter" title="Twitter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCxPGZROtAFFqwWXJcxGqVlQ?view_as=subscriber" target="_blank"
+                        class="social youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://github.com/geraldogonzalez/" target="_blank" class="social github" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <p class="center flow-text autor">Geraldo González - 2019</p>
+        </footer>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/t.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
